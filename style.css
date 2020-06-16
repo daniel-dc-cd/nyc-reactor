@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 1px dashed red;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+.main_part {
+    margin: 0px auto;
+    height: 1000px;
+    width: 750px;
+}
+header {
+    font-family: 'Sriracha',
+    cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#home {
+    font-size: 24px;
+    color: blue;
+}
+.menu_wrapper {
+    width: 100%;
+}
+
+.top_menu {
+    margin: 0px auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.top_menu li {
+    padding: 10px 30px;
+    border: 5px solid #000000;
+    border-radius: 25%;
+    height: 30px;
+    width: 100px;
+}
